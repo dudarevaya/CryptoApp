@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2172DABD6D7E5337DFE8968C /* Pods_CryptoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E29205082B6F783DC23B7A /* Pods_CryptoApp.framework */; };
+		312A90B6290303980060FFAB /* LoginViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312A90B5290303980060FFAB /* LoginViewModelProtocol.swift */; };
+		312A90B8290304030060FFAB /* CryptoViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312A90B7290304030060FFAB /* CryptoViewModelProtocol.swift */; };
+		3136D6AD28FDAEE00015D002 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3136D6AC28FDAEE00015D002 /* UIImageView.swift */; };
+		314FC92928F9A1F700DB0120 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314FC92828F9A1F700DB0120 /* Double.swift */; };
+		3156FA6E290162640086DE51 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3156FA6D290162640086DE51 /* LoginViewModel.swift */; };
+		316E716F29004A7A007FA276 /* CryptoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316E716E29004A7A007FA276 /* CryptoViewModel.swift */; };
+		31B583EA28EF006600855E61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B583E928EF006600855E61 /* AppDelegate.swift */; };
+		31B583EC28EF006600855E61 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B583EB28EF006600855E61 /* SceneDelegate.swift */; };
+		31B583EE28EF006600855E61 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B583ED28EF006600855E61 /* LoginViewController.swift */; };
+		31B583F128EF006600855E61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31B583EF28EF006600855E61 /* Main.storyboard */; };
+		31B583F628EF006B00855E61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31B583F528EF006B00855E61 /* Assets.xcassets */; };
+		31B583F928EF006B00855E61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31B583F728EF006B00855E61 /* LaunchScreen.storyboard */; };
+		31B5840128F05D0100855E61 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B5840028F05D0100855E61 /* TableViewController.swift */; };
+		31B5840328F060E000855E61 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B5840228F060E000855E61 /* DetailViewController.swift */; };
+		31B5840628F0612000855E61 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B5840528F0612000855E61 /* Cell.swift */; };
+		31B5840C28F0630600855E61 /* TableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B5840B28F0630600855E61 /* TableViewModel.swift */; };
+		31B5840F28F063BD00855E61 /* TableViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B5840E28F063BD00855E61 /* TableViewModelProtocol.swift */; };
+		31B5841528F1D93B00855E61 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B5841428F1D93B00855E61 /* NetworkManager.swift */; };
+		31B5841728F1D9F000855E61 /* CryptoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B5841628F1D9F000855E61 /* CryptoModel.swift */; };
+		31B5841A28F1E50E00855E61 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B5841928F1E50E00855E61 /* Enums.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		312A90B5290303980060FFAB /* LoginViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModelProtocol.swift; sourceTree = "<group>"; };
+		312A90B7290304030060FFAB /* CryptoViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoViewModelProtocol.swift; sourceTree = "<group>"; };
+		3136D6AC28FDAEE00015D002 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		314FC92828F9A1F700DB0120 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		3156FA6D290162640086DE51 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		316E716E29004A7A007FA276 /* CryptoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoViewModel.swift; sourceTree = "<group>"; };
+		31B583E628EF006600855E61 /* CryptoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31B583E928EF006600855E61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		31B583EB28EF006600855E61 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		31B583ED28EF006600855E61 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		31B583F028EF006600855E61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31B583F528EF006B00855E61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31B583F828EF006B00855E61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31B583FA28EF006B00855E61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31B5840028F05D0100855E61 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		31B5840228F060E000855E61 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		31B5840528F0612000855E61 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		31B5840B28F0630600855E61 /* TableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewModel.swift; sourceTree = "<group>"; };
+		31B5840E28F063BD00855E61 /* TableViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewModelProtocol.swift; sourceTree = "<group>"; };
+		31B5841428F1D93B00855E61 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		31B5841628F1D9F000855E61 /* CryptoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoModel.swift; sourceTree = "<group>"; };
+		31B5841928F1E50E00855E61 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		4F5831B66BABB74E9DA9F0FC /* Pods-CryptoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoApp.debug.xcconfig"; path = "Target Support Files/Pods-CryptoApp/Pods-CryptoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		99E29205082B6F783DC23B7A /* Pods_CryptoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0B98341C72827B01B6DCFA8 /* Pods-CryptoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoApp.release.xcconfig"; path = "Target Support Files/Pods-CryptoApp/Pods-CryptoApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31B583E328EF006600855E61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2172DABD6D7E5337DFE8968C /* Pods_CryptoApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		314FC92728F9A1B000DB0120 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				314FC92828F9A1F700DB0120 /* Double.swift */,
+				3136D6AC28FDAEE00015D002 /* UIImageView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		31B583DD28EF006600855E61 = {
+			isa = PBXGroup;
+			children = (
+				31B583E828EF006600855E61 /* CryptoApp */,
+				31B583E728EF006600855E61 /* Products */,
+				B350283DEF9C312431CA919A /* Pods */,
+				8BD2A055CEF71DA5212F9F56 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		31B583E728EF006600855E61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31B583E628EF006600855E61 /* CryptoApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31B583E828EF006600855E61 /* CryptoApp */ = {
+			isa = PBXGroup;
+			children = (
+				31B583E928EF006600855E61 /* AppDelegate.swift */,
+				31B583EB28EF006600855E61 /* SceneDelegate.swift */,
+				314FC92728F9A1B000DB0120 /* Extensions */,
+				31B5840D28F0638C00855E61 /* Protocols */,
+				31B5841328F1D88100855E61 /* Network */,
+				31B5840828F0616100855E61 /* ViewModel */,
+				31B5840428F060E700855E61 /* View */,
+				31B5840928F0617C00855E61 /* Model */,
+				31B5841828F1E4E500855E61 /* Resourses */,
+				31B583EF28EF006600855E61 /* Main.storyboard */,
+				31B583FA28EF006B00855E61 /* Info.plist */,
+			);
+			path = CryptoApp;
+			sourceTree = "<group>";
+		};
+		31B5840428F060E700855E61 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				31B583ED28EF006600855E61 /* LoginViewController.swift */,
+				31B5840028F05D0100855E61 /* TableViewController.swift */,
+				31B5840228F060E000855E61 /* DetailViewController.swift */,
+				31B5840728F0612500855E61 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		31B5840728F0612500855E61 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				31B5840528F0612000855E61 /* Cell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		31B5840828F0616100855E61 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3156FA6D290162640086DE51 /* LoginViewModel.swift */,
+				31B5840B28F0630600855E61 /* TableViewModel.swift */,
+				316E716E29004A7A007FA276 /* CryptoViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		31B5840928F0617C00855E61 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				31B5841628F1D9F000855E61 /* CryptoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		31B5840D28F0638C00855E61 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				31B5840E28F063BD00855E61 /* TableViewModelProtocol.swift */,
+				312A90B5290303980060FFAB /* LoginViewModelProtocol.swift */,
+				312A90B7290304030060FFAB /* CryptoViewModelProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		31B5841328F1D88100855E61 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				31B5841428F1D93B00855E61 /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		31B5841828F1E4E500855E61 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				31B5841928F1E50E00855E61 /* Enums.swift */,
+				31B583F728EF006B00855E61 /* LaunchScreen.storyboard */,
+				31B583F528EF006B00855E61 /* Assets.xcassets */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		8BD2A055CEF71DA5212F9F56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99E29205082B6F783DC23B7A /* Pods_CryptoApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B350283DEF9C312431CA919A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F5831B66BABB74E9DA9F0FC /* Pods-CryptoApp.debug.xcconfig */,
+				D0B98341C72827B01B6DCFA8 /* Pods-CryptoApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31B583E528EF006600855E61 /* CryptoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31B583FD28EF006B00855E61 /* Build configuration list for PBXNativeTarget "CryptoApp" */;
+			buildPhases = (
+				CAB9108CA0E9A4319097A0F8 /* [CP] Check Pods Manifest.lock */,
+				31B583E228EF006600855E61 /* Sources */,
+				31B583E328EF006600855E61 /* Frameworks */,
+				31B583E428EF006600855E61 /* Resources */,
+				BD1F10660C67F379A21C9DFF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CryptoApp;
+			productName = CryptoApp;
+			productReference = 31B583E628EF006600855E61 /* CryptoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31B583DE28EF006600855E61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					31B583E528EF006600855E61 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 31B583E128EF006600855E61 /* Build configuration list for PBXProject "CryptoApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31B583DD28EF006600855E61;
+			productRefGroup = 31B583E728EF006600855E61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31B583E528EF006600855E61 /* CryptoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31B583E428EF006600855E61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31B583F928EF006B00855E61 /* LaunchScreen.storyboard in Resources */,
+				31B583F628EF006B00855E61 /* Assets.xcassets in Resources */,
+				31B583F128EF006600855E61 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BD1F10660C67F379A21C9DFF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CryptoApp/Pods-CryptoApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CryptoApp/Pods-CryptoApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CryptoApp/Pods-CryptoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAB9108CA0E9A4319097A0F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CryptoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31B583E228EF006600855E61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31B583EE28EF006600855E61 /* LoginViewController.swift in Sources */,
+				314FC92928F9A1F700DB0120 /* Double.swift in Sources */,
+				31B5840628F0612000855E61 /* Cell.swift in Sources */,
+				31B5840C28F0630600855E61 /* TableViewModel.swift in Sources */,
+				312A90B8290304030060FFAB /* CryptoViewModelProtocol.swift in Sources */,
+				31B5841528F1D93B00855E61 /* NetworkManager.swift in Sources */,
+				316E716F29004A7A007FA276 /* CryptoViewModel.swift in Sources */,
+				31B583EA28EF006600855E61 /* AppDelegate.swift in Sources */,
+				31B5841728F1D9F000855E61 /* CryptoModel.swift in Sources */,
+				3156FA6E290162640086DE51 /* LoginViewModel.swift in Sources */,
+				31B5841A28F1E50E00855E61 /* Enums.swift in Sources */,
+				3136D6AD28FDAEE00015D002 /* UIImageView.swift in Sources */,
+				31B5840F28F063BD00855E61 /* TableViewModelProtocol.swift in Sources */,
+				31B5840328F060E000855E61 /* DetailViewController.swift in Sources */,
+				31B5840128F05D0100855E61 /* TableViewController.swift in Sources */,
+				312A90B6290303980060FFAB /* LoginViewModelProtocol.swift in Sources */,
+				31B583EC28EF006600855E61 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		31B583EF28EF006600855E61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31B583F028EF006600855E61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		31B583F728EF006B00855E61 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31B583F828EF006B00855E61 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31B583FB28EF006B00855E61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		31B583FC28EF006B00855E61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31B583FE28EF006B00855E61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F5831B66BABB74E9DA9F0FC /* Pods-CryptoApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39VTCNSW29;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CryptoApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dudarevaya.CryptoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31B583FF28EF006B00855E61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0B98341C72827B01B6DCFA8 /* Pods-CryptoApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39VTCNSW29;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CryptoApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dudarevaya.CryptoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31B583E128EF006600855E61 /* Build configuration list for PBXProject "CryptoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31B583FB28EF006B00855E61 /* Debug */,
+				31B583FC28EF006B00855E61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31B583FD28EF006B00855E61 /* Build configuration list for PBXNativeTarget "CryptoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31B583FE28EF006B00855E61 /* Debug */,
+				31B583FF28EF006B00855E61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31B583DE28EF006600855E61 /* Project object */;
+}
